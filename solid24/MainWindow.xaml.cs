@@ -30,6 +30,7 @@ namespace solid24
             Window1 newWindow = new Window1();
             newWindow.MyData = "לא משנה - ממילא לא השתמשנו בזה";
             newWindow.Show();
+            this.Close();
         }
     }
 }

@@ -47,5 +47,6 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
+        <Button Content=" לום" FontSize="25" FontFamily="Old English Text MT"  HorizontalAlignment="Right" Margin="134,140.667,0,-180.667" Grid.Row="1" VerticalAlignment="Top" Width="174" Grid.ColumnSpan="2" Height="82"/>
     </Grid>
 </Window>

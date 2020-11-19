@@ -28,7 +28,7 @@ namespace solid45 //חשוב לשים לב באיזה מרחב שמות מדוב
             bool boolValue = (bool)value;
             if (boolValue)
             {
-                return Visibility.Collapsed;
+                return Visibility.Hidden;
             }
             else
             {

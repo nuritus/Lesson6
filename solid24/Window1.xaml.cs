@@ -20,8 +20,11 @@ namespace solid24
     public partial class Window1 : Window
     {
         public Window1()
-        {
+        { 
+            //this.vvv.Content = MyData;
+            
             InitializeComponent();
+           
         }
 
         public string MyData { get; set; }

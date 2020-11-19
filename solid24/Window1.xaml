@@ -12,7 +12,8 @@
             <ColumnDefinition Width="149*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Text="במכון טל. לא ידעת לבד?" Grid.ColumnSpan="2" Margin="16,6,-16.429,-7.571" />
-        
+        <Button x:Name="vvv" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="55.333,30,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
     
 </Window>

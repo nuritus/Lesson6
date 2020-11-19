@@ -14,7 +14,7 @@
         <StackPanel Orientation="Horizontal">
             <Button Content="Prev" />
             <Button Content="Next"
-                    IsEnabled="{Binding ElementName=checkBoxAgree, Path=IsChecked}" />
+                    IsEnabled="{Binding ElementName=checkBoxAgree, Path=IsChecked, Mode=OneTime}" />
         </StackPanel>
     </StackPanel>
 </Window>

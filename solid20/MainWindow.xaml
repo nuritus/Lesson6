@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
-        <LinearGradientBrush x:Key="myLinearGradientBrush">
+        <LinearGradientBrush x:Key="myLinearGradientBrushWindows">
             <GradientStop Color="Blue"
                     Offset="0" />
             <GradientStop Color="Yellow"
@@ -17,6 +17,16 @@
         </LinearGradientBrush>
     </Window.Resources>
     <Grid>
+        <Grid.Resources>
+            <LinearGradientBrush x:Key="myLinearGradientBrushGrid">
+                <GradientStop Color="Gray"
+                    Offset="0" />
+                <GradientStop Color="Green"
+                    Offset="0.5" />
+                <GradientStop Color="Red"
+                    Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Resources>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />

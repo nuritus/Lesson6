@@ -4,6 +4,17 @@
              xmlns:local="clr-namespace:solid20"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <FontFamily >
+            
+        </FontFamily>
+            <LinearGradientBrush x:Key="myLinearGradientBrush">
+                <GradientStop Color="Pink"
+                    Offset="0" />
+                <GradientStop Color="Yellow"
+                    Offset="0.5" />
+                <GradientStop Color="Black"
+                    Offset="1" />
+            </LinearGradientBrush>
+        
     </Application.Resources>
 </Application>
